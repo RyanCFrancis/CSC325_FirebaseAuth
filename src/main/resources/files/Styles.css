@@ -1,0 +1,29 @@
+.right_panel {
+    -fx-background-color: #6ce300
+}
+
+.button {
+    -fx-background-color: #b87f31;
+}
+
+.button:hover {
+    -fx-background-color: #baa890;
+}
+
+.button:focused {
+    -fx-background-color: #1aab43;
+    -fx-text-fill: #ffffff;
+}
+
+.left_panel {
+    -fx-background-color: #b87f31;
+}
+
+.menu_bar {
+    -fx-background-color: #994800;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler {
+    -fx-background-color: #a3a3a3;
+}

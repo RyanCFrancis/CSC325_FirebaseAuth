@@ -88,8 +88,8 @@ public class AccessFBView {
     }
 
         public boolean readFirebase()
-         {
-             key = false;
+        {
+            key = false;
 
         //asynchronously retrieve all documents
         ApiFuture<QuerySnapshot> future =  App.fstore.collection("References").get();
