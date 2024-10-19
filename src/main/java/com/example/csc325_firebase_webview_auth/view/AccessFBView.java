@@ -28,7 +28,7 @@ import javafx.scene.control.TextField;
 public class AccessFBView {
 
 
-     @FXML
+    @FXML
     private TextField nameField;
     @FXML
     private TextField majorField;
@@ -155,6 +155,5 @@ public class AccessFBView {
            // Logger.getLogger(FirestoreContext.class.getName()).log(Level.SEVERE, null, ex);
             return false;
         }
-
     }
 }
